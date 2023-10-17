@@ -1,15 +1,20 @@
 <template>
   <div class="header">
     <nav class="navigation">
-      <router-link class="navlink" to="">Diagrammes Structurels</router-link>
-      <router-link class="navlink" to="">Diagrammes comportementaux</router-link>
+      <router-link class="navlink" to="/diagrams/struct" replace>Diagrammes Structurels</router-link>
+      <router-link class="navlink" to="/diagrams/behavior" replace>Diagrammes comportementaux</router-link>
     </nav>
   </div>
 </template>
 
 
 <script setup lang="ts">
+import {ref} from "vue";
 
+const routeProps = ref({
+  structParam: "struct",
+  behaviorParam: "behavior"
+})
 </script>
 
 
