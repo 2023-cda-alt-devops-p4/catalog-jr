@@ -9,12 +9,7 @@
 
 
 <script setup lang="ts">
-import {ref} from "vue";
 
-const routeProps = ref({
-  structParam: "struct",
-  behaviorParam: "behavior"
-})
 </script>
 
 
