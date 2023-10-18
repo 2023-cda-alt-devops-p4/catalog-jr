@@ -1,6 +1,5 @@
 import {createRouter, createWebHistory, type Router} from "vue-router";
 import HomeView from "@/views/HomeView.vue";
-import DiagramsView from "@/views/diagrams/DiagramsView.vue";
 import StructView from "@/views/diagrams/StructView.vue";
 import BehaviorView from "@/views/diagrams/BehaviorView.vue";
 
@@ -11,11 +10,6 @@ export const router: Router = createRouter({
             path: "/",
             name: "home",
             component: HomeView
-        },
-        {
-            path: '/diagrams/',
-            name: "diagrams",
-            component: DiagramsView
         },
         {
             path: '/diagrams/struct',
