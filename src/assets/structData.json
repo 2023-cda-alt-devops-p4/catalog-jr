@@ -25,5 +25,18 @@
       "arrowUsing": "L'utilisation de flèches directionnelles pour montrer les relations composants. Attention à bien définir leur sens pour éviter une mauvaise compréhension des relations et faire une mis-conception"
     },
     "image": "./images/diag-composant.PNG"
+  },
+  {
+    "title": "Diagramme de structure composite",
+    "description": "Diagramme montrant les interactions précises des composants avec les accesseurs ainsi que la distinction entre variable / méthodes (fonctions)",
+    "avantages": {
+      "first": "Clarification de la structure de l'application. Mise en abîme du diagramme de composants ",
+      "seconde": "Permet la décomplexification de l'application"
+    },
+    "goodPractices": {
+      "relationInfo": "Penser à indiquer les relations et interactions entre les éléments",
+      "divideComposite": "Utiliser des diagrammes composites pour mieux voir comment se combinent tous ces composites"
+    },
+    "image": "./images/diag-composite.png"
   }
 ]

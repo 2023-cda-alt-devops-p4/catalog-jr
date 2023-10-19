@@ -28,13 +28,12 @@ import jsonData from "@/assets/structData.json";
   width: 100%;
   height: max-content;
   min-height: 100vh;
-  background-color: red;
   align-items: center;
   flex-direction: column;
+  justify-content: center;
   gap: 20px;
 
   .data-row {
-    background-color: yellow;
     width: 80%;
     flex-direction: column;
     display: flex;
