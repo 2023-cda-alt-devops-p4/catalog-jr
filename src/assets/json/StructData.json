@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Diagramme de classes",
+    "description": "Ce diagramme permets de montrer l'inter-connexion entre les différentes classes ainsi que leurs attributs et méthodes au sein de l'application. Cela permets une meilleure visibilité des entités et de leurs relations",
+    "avantages": "Cela permets de structurer l'entiéreté de votre application au niveau du code",
+    "exemple": "Si votre application gère des employés, votre diagramme comportera une entité Utilisateurs qui se déclinera sous différents grades et ainsi ces digrammes montreront les différents interactions des attributs avec les méthodes de la classe Utilisateur",
+    "img": "",
+    "imgAlt": "Image d'un diagramme UML de classe"
+  },
+  {
+    "name": "Diagramme de composants",
+    "description": "Ce diagramme mets en valeur tous les composants métiers nécessaire à un serice ainsi que leurs intéractions.",
+    "avantages": "Meilleure conception d'un MacroService",
+    "exemple": "Prenons l'exemple d'une boîte mail, elle se compose d'un service d'envoi ainsi que de réception et ces deux composants sont liés par diverses actions",
+    "img": "",
+    "imgAlt": "Image d'un diagramme UML de composant"
+  },
+  {
+    "name": "Diagrammes de déploiement",
+    "description": "Ce diagramme explicite comment les différents services matériels (ex: serveurs) interagissent entre eux et connaître le cheminement du déploiement de l'application",
+    "avantages": [
+      "Planification des ressources nécessaires",
+      "Visualisation du déploiement",
+      "Anticipation d'éventuels bugs"
+    ],
+    "exemple": "Par exemple, si vous allez développer une appli en intégration continue, et vous cherchez le matériel faisant tourner votre app. En ayant un diagramme, vous saurez quoi prendre entre un VPS ou une machine dédiée",
+    "img": "",
+    "imgAlt": "Image d'un diagramme UML de déploiement"
+  }
+]

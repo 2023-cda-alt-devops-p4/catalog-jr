@@ -7,7 +7,7 @@ const Header = () => {
             <HeaderBar>
                 <CustomNavLink to="/structurels">Diagrammes Structurels</CustomNavLink>
                 <CustomNavLink to="/comportementaux">Diagrammes Comportementaux</CustomNavLink>
-                <CustomNavLink to="/structurels">Diagrammes Merise</CustomNavLink>
+                <CustomNavLink to="/merise">Diagrammes Merise</CustomNavLink>
             </HeaderBar>
         </HeaderContainer>
     );
